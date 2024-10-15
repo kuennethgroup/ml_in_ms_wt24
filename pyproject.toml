@@ -1,0 +1,61 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "wt-25-ml-in-ms"
+dynamic = ["version"]
+description = ''
+readme = "README.md"
+requires-python = ">=3.8"
+license = "MIT"
+keywords = []
+authors = [
+  { name = "Christopher Kuenneth", email = "christopher.kuenneth@gmail.com" },
+]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: Implementation :: CPython",
+  "Programming Language :: Python :: Implementation :: PyPy",
+]
+dependencies = []
+
+[project.urls]
+Documentation = "https://github.com/Christopher Kuenneth/wt-25-ml-in-ms#readme"
+Issues = "https://github.com/Christopher Kuenneth/wt-25-ml-in-ms/issues"
+Source = "https://github.com/Christopher Kuenneth/wt-25-ml-in-ms"
+
+[tool.hatch.version]
+path = "src/wt_25_ml_in_ms/__about__.py"
+
+[tool.hatch.envs.types]
+extra-dependencies = [
+  "mypy>=1.0.0",
+]
+[tool.hatch.envs.types.scripts]
+check = "mypy --install-types --non-interactive {args:src/wt_25_ml_in_ms tests}"
+
+[tool.coverage.run]
+source_pkgs = ["wt_25_ml_in_ms", "tests"]
+branch = true
+parallel = true
+omit = [
+  "src/wt_25_ml_in_ms/__about__.py",
+]
+
+[tool.coverage.paths]
+wt_25_ml_in_ms = ["src/wt_25_ml_in_ms", "*/wt-25-ml-in-ms/src/wt_25_ml_in_ms"]
+tests = ["tests", "*/wt-25-ml-in-ms/tests"]
+
+[tool.coverage.report]
+exclude_lines = [
+  "no cov",
+  "if __name__ == .__main__.:",
+  "if TYPE_CHECKING:",
+]
