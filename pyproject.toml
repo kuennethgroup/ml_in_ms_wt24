@@ -24,17 +24,18 @@ classifiers = [
   "Programming Language :: Python :: Implementation :: CPython",
   "Programming Language :: Python :: Implementation :: PyPy",
 ]
-dependencies = [  
-  "matplotlib",
-  "seaborn",
-  "numpy",
-  "pandas",
-  "wikipedia-api",
-  "wordcloud",
-  "torch",
-  "streamlit",
-
-  ]
+dependencies = [
+    "matplotlib",
+    "seaborn",
+    "numpy",
+    "pandas",
+    "wikipedia-api",
+    "wordcloud",
+    "torch",
+    "streamlit",
+    "ipykernel>=6.29.5",
+    "flaml[automl]>=2.3.1",
+]
 
 
 [tool.hatch.version]
@@ -65,3 +66,5 @@ exclude_lines = [
   "if __name__ == .__main__.:",
   "if TYPE_CHECKING:",
 ]
+
+[tool.pdm]

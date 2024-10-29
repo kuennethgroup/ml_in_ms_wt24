@@ -15,7 +15,7 @@ Welcome to the exercises for the "Machine Learning in Materials Science" course!
 
 ## Python Dependency Management
 
-This course utilizes [Hatch](https://github.com/pypa/hatch) for managing Python dependencies. Make sure to set up Hatch to easily manage environments and dependencies for working on the exercises.
+This course utilizes [pdm](https://pdm-project.org/en/latest/) for managing and tracking Python dependencies. Make sure to set up pdm to easily manage environments and dependencies for working on the exercises.
 
 ## Exercises
 
