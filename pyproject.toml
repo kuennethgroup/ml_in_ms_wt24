@@ -20,8 +20,6 @@ dependencies = [
     "streamlit",
     "ipykernel>=6.29.5",
     "flaml[automl]>=2.3.1",
-    "umap-learn>=0.5.7",
-    "datashader>=0.16.3",
     "holoviews>=1.20.0",
     "colorcet>=3.1.0",
     "scikit-image>=0.24.0",
