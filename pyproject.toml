@@ -28,4 +28,5 @@ dependencies = [
     "tensorflow>=2.9.0",
     "protobuf==3.20.3",
     "autogluon>=1.2",
+    "ipywidgets>=8.1.5",
 ]
