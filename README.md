@@ -1,7 +1,7 @@
 # Machine Learning in Materials Science (MLinMS) - Materials Informatics
 <img src="assets/wt24.webp" alt="drawing" width="300"/>   
 
-**Course Exercises - Winter Term 2025**  
+**Course Exercises - Winter Term 2024**  
 **Instructor**: Christopher Kuenneth  
 **Computational Materials Science, University of Bayreuth**  
 
@@ -15,11 +15,11 @@ Welcome to the exercises for the "Machine Learning in Materials Science" course!
 
 ## Python Dependency Management
 
-This course utilizes [pdm](https://pdm-project.org/en/latest/) for managing and tracking Python dependencies. Make sure to set up pdm to easily manage environments and dependencies for working on the exercises.
+This course utilizes [uv](https://docs.astral.sh/uv/getting-started/installation/) for managing and tracking Python dependencies. Make sure to set up uv to easily manage environments and dependencies for working on the exercises.
 
 ## Exercises
 
-The exercises are usually provided as Jupyter notebooks in the folder `wt_225_ml_in_ms`.
+The exercises are usually provided as Jupyter notebooks in the folder `wt_25_ml_in_ms`.
 
 
 ## Running the Notebooks
@@ -33,7 +33,7 @@ You have two primary options to run the provided Jupyter notebooks:
    You can also run all notebooks locally using [VSCode](https://code.visualstudio.com/). Ensure you have the necessary extensions installed for a smooth notebook experience.
 
 3. **Coder at Galadriel**  
-   You'll get access to Galadriel through Coder during the tutorials and can use it for working on the exercises and your project.
+   You'll get access to Galadriel through [Coder](https://github.com/coder/coder) during the tutorials and can use it for working on the exercises and your project.
 
 
 
