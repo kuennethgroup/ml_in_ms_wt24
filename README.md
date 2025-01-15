@@ -13,7 +13,7 @@ Welcome to the exercises for the "Machine Learning in Materials Science" course!
 
 ## Python Dependency Management
 
-This course utilizes [uv](https://docs.astral.sh/uv/getting-started/installation/) for managing and tracking Python dependencies. Make sure to set up uv to easily manage environments and dependencies for working on the exercises.
+This course utilizes [uv](https://docs.astral.sh/uv/getting-started/installation/) for managing and tracking Python dependencies. Make sure to set up uv to easily manage environments and dependencies for working on the exercises. If you work on Coder, uv is already installed.
 
 ## Exercises
 
